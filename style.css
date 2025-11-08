@@ -1,0 +1,59 @@
+/* Basic reset and page font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* A nice, soft blue-gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes it full-height */
+    margin: 0;
+}
+
+/* The main box holding our app */
+.app-container {
+    background-color: #ffffff; /* A clean white card */
+    padding: 30px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* A soft shadow */
+    text-align: center;
+    width: 350px;
+}
+
+/* The box holding the input and button */
+.search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Spreads the input and button out */
+}
+
+/* The city input field */
+#cityInput {
+    flex-grow: 1; /* Lets the input field take up most of the space */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* The search button */
+#searchBtn {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #007bff; /* A nice blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Makes it look like a button */
+    font-size: 16px;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3; /* A darker blue on hover */
+}
+
+/* The box where weather info will appear */
+.weather-display-box {
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
